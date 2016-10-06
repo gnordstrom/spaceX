@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-color: #181c1f;
+}
+
+.header-nav {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.navigation-links {
+  display: inline;
+}
+
+.nav-logo {
+  display: inline-block;
+}
+
+.nav-main {
+  display: inline-block;
+}
+
+.nav-secondary {
+  display: inline-block;
+}
+
+.menu li {
+  display: inline;
+  list-style-type: none;
+}
+
+.menu_link {
+  color: white;
+  font-size: 14px;
+
+}
