@@ -10,6 +10,7 @@ import { FalconHeavyComponent } from './falcon-heavy/falcon-heavy.component';
 import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
 import { HeaderComponent } from './header.component';
+import { FooterComponent } from './footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header.component';
     Falcon9Component,
     FalconHeavyComponent,
     DragonComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
