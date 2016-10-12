@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
 import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer.component';
     FalconHeavyComponent,
     DragonComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,

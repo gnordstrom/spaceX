@@ -4,49 +4,130 @@
 }
 
 
+
+
+/* Middle Divider*/
 .info-box {
   width: 100%;
   height: 50px;
   display: inline;
 }
 
-.info-box h2 {
-  color: white;
-  text-align: center;
-  padding-top: 30px;
+.info-box-inner {
+	max-width: 1044px;
+	margin: 0 auto;
+	padding: 33px 30px;
+	display: flex;
+	justify-content: space-around;
 }
 
-
-.content-box {
-  width: 100%;
-  height: 600px;
-  background-color: white;
-  margin-top: 75px;
-
-}
-
-.vision h3 {
-  text-align: center;
-  text-transform: uppercase;
+.info-box-inner h2 {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 24px;
   font-weight: bold;
-  font-size: 18px;
-  padding-top: 25px;
+  /*text-align: center;*/
+  /*padding-top: 30px;*/
+}
+.info-box-inner a {
+	color: #ffffff;
+}
+.info-box-inner .button-replay {
+	color: black;
 }
 
-.updates {
-  display: inline-block;
-  margin: 20px auto;
+.replay-button {
+	width: 180px;
+	height: 36px;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 2px;
+	border: 2px solid white;
+	margin-top: 13px;
 }
 
-.container {
-  width: 70%;
-  margin: auto;
+
+
+
+
+/* Bottom White Container*/
+.container-bottom {
+	width: 100%;
+	height: 550px;
+	background-color: #ffffff;
+}
+.bottom-main-content {
+	width: 990px;
+	height: 100%;
+	/*border: 1px solid #cccccc;*/
+	margin: 30px auto;
 }
 
-.box-info {
-  width: 310px;
-  height: 282px;
-  padding: 24px;
-  background-color: red;
-  display: inline-block;
+.content-bar {
+	width: 90%;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+.content-bar h2 {
+	font-size: 18px;
+	line-height: 14px;
+	color: #3a3a3a;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+.bottom-boxes {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-main-content {
+	width: 262px;
+	height: 234px;
+	margin: 10px auto;
+}
+
+.bottom-boxX {
+	width: 310px;
+	height: 279px;
+	border: 1px solid black;
+}
+.bottom-boxY {
+	width: 310px;
+	height: 279px;
+	border: 1px solid black;
+}
+.bottom-boxZ {
+	width: 310px;
+	height: 279px;
+	border: 1px solid black;
+}
+.bottom-box-top {
+	width: 85%;
+	/*margin: 10px auto;*/
+}
+.bottom-box-top img {
+	width: 256px;
+	height: 116px;
+	/*margin: 10px auto;*/
+}
+
+.bottom-box-bottom {
+	/*margin: 15px;*/
+}
+.bottom-box-bottom h3 {
+	font-size: 18px;
+	line-height: 22px;
+	color: #3a3a3a;
+	font-weight: bold;
+}
+.bottom-box-bottom p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #3569a4;
+}
+.thirdBOX {
+	margin-top: 55px;
 }

@@ -60,6 +60,7 @@
 .menu_secondary {
   color: #8b939b;
   font-size: 12px;
+  font-weight: bold;
 }
 
 .menu li {
@@ -67,7 +68,13 @@
   list-style-type: none;
 }
 
-/*.menu_link {
-  color: white;
-  font-size: 14px;
-}*/
+.shop-btn {
+	background: #0b0b0b;
+	margin: -6px 0 0 -6px;
+	padding: 4px 12px;
+   border: 0 none;
+	border-radius: 24px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
