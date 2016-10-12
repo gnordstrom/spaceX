@@ -1,0 +1,36 @@
+/* Bottom Comparables*/
+.bottom-comparables {
+	width: 990px;
+	margin: 0 auto;
+}
+.comp-title {
+	border-bottom: 1px dashed #b7b7b7;
+	padding-top: 45px;
+	padding-bottom: 10px;
+}
+.comp-title h2 {
+	font-size: 25px;
+	line-height: 20px;
+	color: #3a3a3a;
+	font-weight: bold;
+}
+.comp-desc {
+	margin-top: 20px;
+}
+.comp-desc p {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+	margin-bottom: 35px;
+}
+.comp-desc span {
+	font-family: Helvetica;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+}
+.comp-img img {
+	width: 990px;
+	height: 322px;
+}

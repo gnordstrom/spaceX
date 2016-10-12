@@ -1,0 +1,168 @@
+/* Bottom News Updates*/
+.bottom-news-updates {
+	width: 100%;
+	/*border: 1px solid blue;*/
+	height: 400px;
+	margin-top: 80px;
+}
+
+/*Row 1*/
+.updates-row1 {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	border-bottom: 2px solid #E0E0E0;
+}
+.row1-header {
+	width: 85%;
+}
+.row1-header h2 {
+	font-size: 25px;
+	line-height: 0px;
+	font-weight: bold;
+	color: #3a3a3a;
+	margin-bottom: 20px;
+	letter-spacing: 0.05em;
+}
+.row1-content {
+	width: 15%;
+	margin-top: 15px;
+}
+.row1-content a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #3569a4;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+/*Row 2*/
+.updates-row2 {
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.row2-border {
+	display: flex;
+	border-bottom: 1px dashed #B7B7B7;
+	width: 70%;
+}
+.row2-1 {
+	width: 80%;
+}
+.row2-1 h4 {
+	font-size: 12px;
+	line-height: 12px;
+	color: #666666;
+	margin-top: 20px;
+}
+.row2-2 {
+	width: 25%;
+	padding-top: 18px;
+}
+.row2-2 a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #3659a4;
+}
+
+.row2-noborder {
+	width: 35%;
+	display: flex;
+}
+.row2-noborder .row2-3 {
+	width: 50%;
+	padding-top: 12px;
+}
+.row2-3 h5 {
+	float: left;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666666;
+	margin-left: 15px;
+}
+
+.row2-noborder .row2-4 {
+	width: 50%;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.row2-4 a {
+	float: right;
+	font-size: 12px;
+	line-height: 16px;
+	color: #3659a4;
+}
+
+/* Row 3 */
+.updates-row3 {
+	width: 100%;
+	display: flex;
+}
+.row3-content {
+	width: 68%;
+	height: 105px;
+	border-bottom: 1px dashed #B7B7B7;
+}
+
+.row3-images {
+	width: 32%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	/*margin-top: 4px;*/
+}
+.row3-images img {
+	width: 100px;
+	height: 100px;
+}
+
+/* Rows 3 and 4 */
+.row-date {
+	font-size: 11px;
+	line-height: 16px;
+	color: #666666;
+	padding-top: 10px;
+}
+.row-title {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #3a3a3a;
+}
+.row-info {
+	font-size: 14px;
+	line-height: 24px;
+	color: #4b5256;
+	font-family: Arial;
+	margin-top: -10px;
+}
+.row-info a {
+	font-size: 11px;
+	line-height: 24px;
+	color: #3569a4;
+	font-weight: bold;
+}
+
+/* Row 4 */
+.updates-row4 {
+	width: 100%;
+	display: flex;
+}
+.row4-content {
+	width: 68%;
+	height: 105px;
+	border-bottom: 1px dashed #B7B7B7;
+}
+.row4-images {
+	width: 32%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	/*margin-top: 4px;*/
+}
+.row4-images img {
+	width: 100px;
+	height: 100px;
+}

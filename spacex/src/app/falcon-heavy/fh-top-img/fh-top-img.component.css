@@ -1,0 +1,20 @@
+/* TOP IMAGE */
+.top-img img {
+	width: 100%;
+	position: relative;
+}
+.top-img-text {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+.top-img-text h1 {
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 300;
+	color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+}

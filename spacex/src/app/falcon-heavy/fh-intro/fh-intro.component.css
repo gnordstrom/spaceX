@@ -1,0 +1,113 @@
+/* FALCON HEAVY*/
+.falcon-heavy-content {
+	height: 450px;
+	/*border: 2px solid blue;*/
+	margin: 0 auto;
+}
+
+.intro-container {
+	width: 1030px;
+	height: 378px;
+	color: white;
+	margin-top: 10px;
+}
+
+/* Top and Right Section*/
+.intro-top {
+
+}
+
+.intro-title {
+	width: 665px;
+	border-bottom: 1px dashed #cccccc;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	display: inline-block;
+}
+
+.intro-title h1 {
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.intro-photos {
+	width: 300px;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-right: 35px;
+}
+
+.mini-falcon-heavy {
+	margin-left: 22px;
+}
+
+.nav-1 {
+	padding-left: 85px;
+	height: 91px;
+	margin-top: 40px;
+	background-color: #21272b;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #cccccc;
+}
+
+
+.nav-2 {
+	height: 42px;
+	margin-top: 5px;
+	background-color: #21272b;
+	padding-left: 85px;
+	font-size: 11px;
+	color: #cccccc;
+	padding-top: 14px;
+}
+.nav-3 {
+	height: 42px;
+	margin-top: 5px;
+	background-color: #21272b;
+	padding-left: 85px;
+	font-size: 11px;
+	color: #cccccc;
+	padding-top: 14px;
+}
+.nav-4 {
+	height: 42px;
+	margin-top: 5px;
+	background-color: #21272b;
+	padding-left: 85px;
+	font-size: 11px;
+	color: #cccccc;
+	padding-top: 14px;
+}
+
+.intro-photos img {
+	float: left;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+
+/* Left Main Section*/
+.info-container {
+	width: 680px;
+	/*border: 2px solid green;*/
+	display: flex;
+}
+.span4 {
+	width: 48%;
+	margin-top: 20px;
+}
+#span-left {
+	width: 310px;
+	height: 240px;
+}
+#span-right {
+	width: 310px;
+	height: 240px;
+}
+
+.span4 p {
+	font-family: Arial;
+	color: #cccccc;
+	line-height: 24px;
+	font-size: 14px;
+}
