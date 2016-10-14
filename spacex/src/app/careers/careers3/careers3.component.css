@@ -1,0 +1,18 @@
+.main {
+	width: 970px;
+	height: 660px;
+	margin: auto;
+	/*border: 1px solid blue;*/
+	display: flex;
+}
+
+.left-content {
+	width: 50%;
+	height: 100%;
+	border: 1px solid red;
+}
+.right-content {
+	width: 50%;
+	height: 100%;
+	border: 1px solid black;
+}

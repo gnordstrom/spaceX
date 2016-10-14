@@ -1,0 +1,106 @@
+.top-img {
+	width: 100%;
+	/*height: 527px;*/
+	position: relative;
+}
+.top-img img {
+	width: 100%;
+	height: 527px
+}
+
+.top-img-text {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+
+.top-img-text h1 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 42px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 200px;
+}
+
+
+.black-box {
+	width: 1000px;
+	height: 80px;
+	background-color: black;
+	padding: 10px;
+	position: relative;
+	z-index: 20;
+	margin-top: -60px;
+}
+
+.black-box h3 {
+	font-size: 14px;
+	line-height: 11px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.black-box h4 {
+	font-size: 20px;
+	line-height: 16px;
+	color: #8b939b;
+}
+.black-box h5 {
+	font-size: 11px;
+	line-height: 16px;
+	color: #4b5256;
+	font-weight: bold;
+}
+
+.border-left {
+	border-left: 1px dashed #4b5256;
+}
+
+
+
+/* White Box */
+.white-box {
+	width: 100%;
+	height: 553px;
+	background-color: #ffffff;
+}
+
+.videos {
+	width: 980px;
+	height: 426px;
+	border: 1px solid #ccc;
+	margin: 25px auto 20px auto;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+}
+
+.youtube {
+	display: flex;
+	margin: 20px 20px 20px 30px;
+}
+.vid1 {
+	margin-right: 20px;
+}
+
+.bottom-button {
+	text-align: center;
+	width: 94%;
+	margin: auto;
+	padding-top: 30px;
+	border-top: 1px dashed #555;
+}
+
+.bottom-button a {
+	width: 300px;
+}
+.mr-button {
+	width: 300px;
+	margin: 0 auto;
+	color: #666;
+	text-decoration: none;
+	padding: 15px 25px;
+	font-size: 12px;
+	border: 2px solid #f2f2f2;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+}

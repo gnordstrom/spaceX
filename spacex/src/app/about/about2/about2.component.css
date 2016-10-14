@@ -1,0 +1,35 @@
+.main {
+	width: 990px;
+	height: 100%;
+	/*border: 1px solid black;*/
+	margin: auto;
+	padding-top: 20px;
+}
+
+.content-middle {
+	height: 764px;
+	border: 1px solid blue;
+}
+.content-header {
+	font-size: 25px;
+	line-height: 30px;
+	color: #3a3a3a;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+.content-desc {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4b5256;
+	margin-top: 40px;
+}
+
+.desc2 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4b5256;
+	margin-top: 20px;
+}
