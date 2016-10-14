@@ -1,0 +1,34 @@
+.intro {
+	padding-top: 40px;
+}
+
+.intro-header {
+	border-bottom: 1px dashed #ccc;
+}
+.intro-header h1 {
+	font-size: 25px;
+	line-height: 20px;
+	color: #3a3a3a;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.intro-desc {
+	display: flex;
+	margin-top: 20px;
+
+}
+.intro-desc p {
+	width: 50%;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4b5256;
+	font-family: Arial;
+	margin-left: 20px;
+}
+
+.main-container {
+	border: 1px solid black;
+	height: 810px;
+	width: 1030px;
+}

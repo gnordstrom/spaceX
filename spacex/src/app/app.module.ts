@@ -39,6 +39,10 @@ import { Careers6Component } from './careers/careers6/careers6.component';
 import { About1Component } from './about/about1/about1.component';
 import { About2Component } from './about/about2/about2.component';
 import { About3Component } from './about/about3/about3.component';
+import { DragonInsideSpacecraftComponent } from './dragon/dragon-inside-spacecraft/dragon-inside-spacecraft.component';
+import { DragonBottomMilestonesComponent } from './dragon/dragon-bottom-milestones/dragon-bottom-milestones.component';
+import { DragonBottomUpdatesComponent } from './dragon/dragon-bottom-updates/dragon-bottom-updates.component';
+import { DragonMainComponent } from './dragon/dragon-main/dragon-main.component';
 
 
 @NgModule({
@@ -78,6 +82,10 @@ import { About3Component } from './about/about3/about3.component';
     About1Component,
     About2Component,
     About3Component,
+    DragonInsideSpacecraftComponent,
+    DragonBottomMilestonesComponent,
+    DragonBottomUpdatesComponent,
+    DragonMainComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,105 @@
+.content {
+	width: 1030px;
+	height: 1358px;
+	border: 1px solid blue;
+	display: flex;
+}
+
+/* Left Row */
+.row-left {
+	border: 1px solid red;
+	width: 395px;
+	height: 100%;
+}
+.overview {}
+
+.overview h2 {
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.block {
+	width: 310px;
+}
+.block-top {
+	width: 100%;
+	border-bottom: 1px solid #ffffff;
+}
+.block-top h3 {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+}
+.block-bottom h4 {
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.span1 {
+	font-size: 30px;
+	line-height: 40px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.span2 {
+	font-size: 23px;
+	line-height: 40px;
+	font-weight: 300;
+	color: #999999;
+}
+
+
+.pressurized {
+	width: 395px;
+	height: 395px;
+	border: 1px solid green;
+}
+.pressurized h2 {
+	font-size: 30px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.pressure-content {
+
+}
+.pressure-content p {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 23px;
+	color: #cccccc;
+}
+
+.trunk h2 {
+	font-size: 30px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.trunk-content p {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 23px;
+	color: #cccccc;
+}
+
+
+/* Middle Row */
+.row-middle {
+	border: 1px solid yellow;
+	width: 325px;
+	height: 100%;
+}
+
+/* Right Row */
+.row-right {
+	border: 1px solid orange;
+	width: 310px;
+	height: 100%;
+}
+
+.top-dog {
+	margin-top: 60px;
+}
