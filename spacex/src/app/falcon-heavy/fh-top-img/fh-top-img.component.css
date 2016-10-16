@@ -15,6 +15,14 @@
 	color: #ffffff;
 	text-align: center;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	margin-top: 250px;
+}
+.play-icon a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.fa-2x {
+	font-size: 1.6em;
 }

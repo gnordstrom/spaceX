@@ -36,6 +36,9 @@
 	margin-right: 5px;
 	margin-top: 5px;
 }
+.row1-content span {
+	color: black;
+}
 
 /*Row 2*/
 .updates-row2 {
@@ -66,7 +69,9 @@
 	line-height: 16px;
 	color: #3659a4;
 }
-
+.row2-2 span {
+	color: black;
+}
 .row2-noborder {
 	width: 35%;
 	display: flex;
@@ -94,6 +99,10 @@
 	line-height: 16px;
 	color: #3659a4;
 }
+.row2-4 span {
+	color: black;
+}
+
 
 /* Row 3 */
 .updates-row3 {

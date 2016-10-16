@@ -32,3 +32,9 @@
 	height: 810px;
 	width: 1030px;
 }
+
+
+/* Nav Bar */
+.navbar-inverse {
+	display: flex;
+}

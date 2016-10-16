@@ -47,7 +47,12 @@
 	text-transform: uppercase;
 	color: #cccccc;
 }
-
+.nav-1 span {
+	color: #ffffff;
+}
+.nav-2 span {
+	color: #ffffff;
+}
 
 .nav-2 {
 	height: 42px;

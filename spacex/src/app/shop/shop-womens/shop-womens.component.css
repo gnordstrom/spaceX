@@ -1,0 +1,102 @@
+.top {
+	width: 100%;
+	background-color: black;
+}
+
+.top-img {
+	display: flex;
+	justify-content: center;
+	height: 150px;
+}
+
+
+.container {
+	width: 80%;
+	height: 600px;
+	background-color: black;
+	margin: auto;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/* Navigation Styles */
+.nav-header {
+	width: 80%;
+	margin: auto;
+}
+
+nav {
+	background: #015681;
+	display: flex;
+	justify-content: space-around;
+}
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 15px 14px;
+  transition: 0.3s linear;
+}
+nav ul li a i {
+	font-size: 25px;
+}
+nav ul li:hover {background: #126d9b;}
+nav ul li ul {
+  border-bottom: 5px solid #2ba0db;
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+nav ul li ul li {
+  border-top: 1px solid #444;
+  display: block;
+}
+nav ul li ul li:first-child {border-top: none;}
+nav ul li ul li a {
+  background: #373737;
+  display: block;
+  padding: 10px 14px;
+}
+nav ul li ul li a:hover {background: #126d9b;}
+nav .fa.fa-angle-down {margin-left: 6px;}
+
+
+
+
+/* Collection */
+.womens-collection h1 {
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+}
+.display-photo {
+	display: flex;
+}
+.display-photo img {
+	width: 490px;
+	height: 300px;
+	margin: 40px auto 0px auto;
+}
+
+.divider {
+	width: 60%;
+	margin: 20px auto ;
+}

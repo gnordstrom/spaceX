@@ -50,6 +50,9 @@
 	text-transform: uppercase;
 	color: #cccccc;
 }
+.nav-1 span {
+	color: #ffffff;
+}
 
 
 .nav-2 {
@@ -61,6 +64,9 @@
 	color: #cccccc;
 	padding-top: 14px;
 }
+.nav-2 span {
+	color: #ffffff;
+}
 .nav-3 {
 	height: 42px;
 	margin-top: 5px;
@@ -70,6 +76,9 @@
 	color: #cccccc;
 	padding-top: 14px;
 }
+.nav-3 span {
+	color: #ffffff;
+}
 .nav-4 {
 	height: 42px;
 	margin-top: 5px;
@@ -78,6 +87,9 @@
 	font-size: 11px;
 	color: #cccccc;
 	padding-top: 14px;
+}
+.nav-4 span {
+	color: #ffffff;
 }
 
 .intro-photos img {

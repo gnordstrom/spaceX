@@ -64,6 +64,10 @@ margin: 20px 8px 35px 0;
 font-size: 13px;
 line-height: 16px;
 }
+.payload-tech-2 span {
+	color: #ffffff;
+}
+
 
 /* #3 */
 .payload-tech-3 {
@@ -83,6 +87,9 @@ color: #cccccc;
 .payload-tech-3 a {
 font-size: 13px;
 line-height: 16px;
+}
+.payload-tech-3 span {
+	color: #ffffff;
 }
 
 

@@ -1,13 +1,13 @@
 .content {
 	width: 1030px;
 	height: 1358px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	display: flex;
 }
 
 /* Left Row */
 .row-left {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 395px;
 	height: 100%;
 }
@@ -25,11 +25,18 @@
 .block-top {
 	width: 100%;
 	border-bottom: 1px solid #ffffff;
+	display: flex;
+	justify-content: space-between;
 }
 .block-top h3 {
 	font-size: 14px;
 	line-height: 16px;
 	color: #ffffff;
+	margin-top: 30px;
+}
+.block-top img {
+	height: 14px;
+	margin-top: 30px;
 }
 .block-bottom h4 {
 	font-size: 50px;
@@ -54,7 +61,8 @@
 .pressurized {
 	width: 395px;
 	height: 395px;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
+	margin-top: 70px;
 }
 .pressurized h2 {
 	font-size: 30px;
@@ -88,18 +96,51 @@
 
 /* Middle Row */
 .row-middle {
-	border: 1px solid yellow;
+	border: 1px solid blue;
 	width: 325px;
 	height: 100%;
 }
 
+
+
+
 /* Right Row */
 .row-right {
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	width: 310px;
 	height: 100%;
 }
 
+.top-right {
+	margin-top: 55px;
+}
+
+
+
 .top-dog {
 	margin-top: 60px;
+}
+.img-box {
+	height: 271px;
+	width: 202px;
+	margin: 90px auto 0 auto;
+}
+.img-box img {
+	/*width: 202px;*/
+}
+.img-2 {
+	margin-top: 40px;
+}
+.img-box p {
+	font-size: 10px;
+	line-height: 12px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.img-box h5 {
+	font-size: 13px;
+	line-height: 20px;
+	color: #999999;
+	font-family: Arial;
 }

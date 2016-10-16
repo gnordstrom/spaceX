@@ -43,6 +43,15 @@ import { DragonInsideSpacecraftComponent } from './dragon/dragon-inside-spacecra
 import { DragonBottomMilestonesComponent } from './dragon/dragon-bottom-milestones/dragon-bottom-milestones.component';
 import { DragonBottomUpdatesComponent } from './dragon/dragon-bottom-updates/dragon-bottom-updates.component';
 import { DragonMainComponent } from './dragon/dragon-main/dragon-main.component';
+import { ShopMensComponent } from './shop/shop-mens/shop-mens.component';
+import { ShopWomensComponent } from './shop/shop-womens/shop-womens.component';
+import { ShopKidsComponent } from './shop/shop-kids/shop-kids.component';
+import { ShopAccessoriesComponent } from './shop/shop-accessories/shop-accessories.component';
+import { ShopPremiumComponent } from './shop/shop-premium/shop-premium.component';
+import { ShoppingCartComponent } from './shop/shopping-cart/shopping-cart.component';
+import { InsideCargoComponent } from './dragon/dragon-inside-spacecraft/inside-cargo/inside-cargo.component';
+import { InsideCrewComponent } from './dragon/dragon-inside-spacecraft/inside-crew/inside-crew.component';
+import { InsideDragonlabComponent } from './dragon/dragon-inside-spacecraft/inside-dragonlab/inside-dragonlab.component';
 
 
 @NgModule({
@@ -86,6 +95,15 @@ import { DragonMainComponent } from './dragon/dragon-main/dragon-main.component'
     DragonBottomMilestonesComponent,
     DragonBottomUpdatesComponent,
     DragonMainComponent,
+    ShopMensComponent,
+    ShopWomensComponent,
+    ShopKidsComponent,
+    ShopAccessoriesComponent,
+    ShopPremiumComponent,
+    ShoppingCartComponent,
+    InsideCargoComponent,
+    InsideCrewComponent,
+    InsideDragonlabComponent,
   ],
   imports: [
     BrowserModule,
