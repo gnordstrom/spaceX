@@ -9,10 +9,37 @@
 .left-content {
 	width: 50%;
 	height: 100%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
+.left-img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 30px 0;
+}
+
 .right-content {
 	width: 50%;
 	height: 100%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+}
+
+.right-main-content {
+	width: 90%;
+	margin: 0 auto;
+}
+.info-box {}
+.info-box h4 {
+	font-size: 15px;
+	line-height: 30px;
+	color: #a8afb6;
+	font-weight: 500;
+	text-shadow: 0 1px 1px black;
+}
+.info-box p {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	text-shadow: 0 1px 1px black;
 }

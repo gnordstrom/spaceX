@@ -12,7 +12,7 @@
 
 .container {
 	width: 80%;
-	height: 1300px;
+	height: 100%;
 	background-color: black;
 	margin: auto;
 }
@@ -104,16 +104,28 @@ nav .fa.fa-angle-down {margin-left: 6px;}
 
 /* Boxes */
 .bottom-boxes {
-	margin: 30px 50px 20px 50px;
+	/*margin: 30px 50px 20px 50px;*/
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 	margin-top: 60px;
 }
 
 .box-content {
 	width: 90%;
-	height: 100%;
+	/*height: 100%;*/
 	margin: 10px auto;
+}
+
+.repeat-box {
+	width: 20%;
+	height: 300px;
+	border: 5px solid #181C1F;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50);
+	background-color: #21272b;
+	display: inline-block;
+	margin: 10px;
 }
 
 .bottom-boxX {
@@ -161,7 +173,7 @@ nav .fa.fa-angle-down {margin-left: 6px;}
 	height: 70%;
 }
 .bottom-box-top img {
-	width: 90%;
+	height: 200px;
 	margin-bottom: 5px;
 }
 

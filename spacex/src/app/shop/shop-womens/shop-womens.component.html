@@ -30,4 +30,27 @@
 	<div class="divider">
 		<hr>
 	</div>
+
+	<div class="bottom-boxes">
+		<!-- REPEAT BOX -->
+		<div class="repeat-box" *ngFor="let product of products">
+			<div class="box-content">
+				<div class="bottom-box-top">
+					<img src="{{product.imagePath}}" alt="">
+				</div>
+				<div class="bottom-box-bottom">
+					<h1>
+						{{product.name}}
+					</h1>
+					<h2>
+						{{product.type}}
+					</h2>
+					<div class="bottom-box-bottom-middle">
+						<p>${{product.price}}.00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>

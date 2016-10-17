@@ -1,0 +1,26 @@
+.content {
+	width: 970px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.content h3 {
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.content p {
+	color: #a0afb7;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 100px;
+	text-align: center;
+}
+
+.content span {
+	color: #ffffff;
+}

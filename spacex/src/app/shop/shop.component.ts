@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+// import { Response } from '@angular/http';
+// import { HttpService } from './http.service';
 
 @Component({
   selector: 'app-shop',
@@ -6,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop.component.css']
 })
 
-export class ShopComponent implements OnInit {
+export class ShopComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  // ngOnInit() {
+  //   this.httpService.getData().subscribe(
+  //     (data: any) => console.log(data)
+  //   );
+  // }
 
 }

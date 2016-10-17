@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../http.service';
+
 
 @Component({
   selector: 'app-shop-womens',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop-womens.component.css']
 })
 export class ShopWomensComponent implements OnInit {
+  products: any[] = [];
 
-  constructor() { }
+  constructor(private httpService: HttpService) { }
 
   ngOnInit() {
+    this.httpService.getWomens()
+      .subscribe(
+        data => {
+          const myArray = [];
+          for (let key in data) {
+            myArray.push(data[key]);
+         }
+         this.products = myArray;
+      }
+      );
   }
 
 }

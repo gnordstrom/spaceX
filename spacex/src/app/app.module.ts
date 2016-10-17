@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+// import { MensService } from './shop/mens.service';
+
 import { AppComponent } from './app.component';
 import { DragonComponent } from './dragon/dragon.component';
 import { Falcon9Component } from './falcon9/falcon9.component';
@@ -53,6 +55,7 @@ import { InsideCargoComponent } from './dragon/dragon-inside-spacecraft/inside-c
 import { InsideCrewComponent } from './dragon/dragon-inside-spacecraft/inside-crew/inside-crew.component';
 import { InsideDragonlabComponent } from './dragon/dragon-inside-spacecraft/inside-dragonlab/inside-dragonlab.component';
 
+import { HttpService } from './shop/http.service';
 
 @NgModule({
   declarations: [
@@ -111,7 +114,7 @@ import { InsideDragonlabComponent } from './dragon/dragon-inside-spacecraft/insi
     HttpModule,
     routing
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
