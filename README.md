@@ -1,4 +1,4 @@
-# spaceXclone
+# spaceX
 
 Clone of the website spacex.com.
 
